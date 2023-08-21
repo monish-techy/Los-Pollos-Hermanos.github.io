@@ -1,0 +1,65 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Navigation */
+#navbar{
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+#nav_items a{
+    font-size: 0.8rem;
+    padding: 3px 5px;
+    overflow: hidden;
+}
+/* Gus */
+#gus img{
+    width: 100%;
+}
+#gus{
+    margin: 14px;
+    font-size: 0.75rem;
+}
+
+/* About Us */
+#About_Us{
+    border: 2px solid red;
+    background-color: goldenrod;
+ }
+ #About_Us p{
+    font-size: 0.75rem;
+    padding: 7px 10px;
+    
+ }
+ #About_Us .primary_heading{
+    text-decoration: underline;
+    color: brown;
+    margin-top: 30px;
+    font-size: 1.4rem;
+ }
+ #About_Us .secondary_heading{
+    padding: 3px 30px;
+    text-decoration: underline;
+    color: brown;
+    font-size: 0.9rem;
+ }
+/* Footer */
+#footer{
+    
+    width: 100%;
+    
+  }
+  #footer h2{
+    font-size: 1.3rem;
+  
+  }
+  #footerpara{
+    margin-top: 20px;
+    font-size: 1.25rem;
+    padding: 3px;
+}
+#footer_bottom{
+    font-size: 0.8rem;
+    
+}

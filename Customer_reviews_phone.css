@@ -1,0 +1,72 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Navigation */
+#navbar{
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+#nav_items a{
+    font-size: 0.8rem;
+    padding: 3px 5px;
+    overflow: hidden;
+}
+
+/* Customer Reviews */
+
+.primary_heading{
+    margin: 5px;
+    text-decoration: underline;
+    color: brown;
+    font-size: 1.5rem;
+}
+.reviewimg{
+    display: flex;
+    text-align:center;
+    padding: 2px 4px;
+    font-size: 0.8rem;
+    flex-direction: column;
+    
+}
+.reviewimg img{
+    width: 100px;
+    margin: 5px;
+}
+.Reviews{
+ border: 2px solid red;
+ display: flex;
+ flex-direction: column;
+ padding: 8px 14px;
+ align-items: center; 
+ margin: 10px auto;
+ width: 85%;
+ background-color: goldenrod;
+ border-radius: 25px;
+
+ 
+}
+.Reviews p{
+    font-size: 0.9rem;
+}
+
+/* Footer */
+#footer{
+    
+    width: 100%;
+    
+  }
+  #footer h2{
+    font-size: 1.3rem;
+  
+  }
+  #footerpara{
+    margin-top: 20px;
+    font-size: 1.25rem;
+    padding: 3px;
+}
+#footer_bottom{
+    font-size: 0.8rem;
+    
+}

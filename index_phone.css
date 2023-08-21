@@ -1,0 +1,58 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Navigation */
+#navbar{
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+#nav_items a{
+    font-size: 0.8rem;
+    padding: 3px 5px;
+    overflow: hidden;
+}
+
+/* Home */
+#home{
+    margin-top: 190px;
+    height: 550px;
+    width: 93.6%;
+    padding: 4px 10px;
+   
+  }
+  #home::before{
+    height: 40%;
+    width: 100%; 
+    background-position: center;
+  }
+  #home h1{
+    font-size: 1.25rem;
+    padding: 3px 0px;
+  }
+  #home p{
+      font-size: 0.8rem;
+      padding: 4px 12px;
+      
+      
+  }
+/* Footer */
+  #footer{
+    
+    width: 100%;
+    
+  }
+  #footer h2{
+    font-size: 1.3rem;
+  
+  }
+  #footerpara{
+    margin-top: 20px;
+    font-size: 1.25rem;
+    padding: 3px;
+}
+#footer_bottom{
+    font-size: 0.8rem;
+    
+}

@@ -1,0 +1,154 @@
+/* CSS  */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html{
+   
+    scroll-behavior: smooth;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+/* Navbar */
+#navbar_container{
+    position: sticky;
+    top: 0px;
+
+}
+#navbar::before{
+    content: "";
+    position: absolute;
+    top: 0px;
+    background-color: yellow;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    opacity: 0.3;
+    
+}
+#navbar{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+
+ 
+}
+#navbar img{
+    width: 90px;
+  
+}
+#nav_items{
+    list-style-type: none;
+    display: flex;
+   
+    
+}
+#nav_items a{
+    text-decoration: none;
+    padding: 3px 25px;
+    font-size: 1.4rem;
+    color: red;
+
+}
+#nav_items a:hover{
+    color: white;
+    background-color: black;
+    border-radius: 20px;
+}
+#nav_items a:active{
+    text-decoration: underline;
+    
+}
+
+/* Home  */
+
+#home{
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ height: 500px;
+ margin-top: 520px ;
+ border: 2px solid red;
+ background-color: goldenrod;
+ color: brown;
+ border-radius: 11px;
+ 
+}
+#home h1{
+    text-decoration: underline solid;
+   
+    font-weight: bold;
+    
+}
+#home p{
+    font-size: 1.4rem;
+    padding: 14px 30px;
+    color: black;
+    
+
+}
+
+
+#home::before{
+    content: "";
+    position: absolute;
+    top: 0px;
+    background: url(Img/Los_pollos_res.jpg);
+    height: 600px;
+    width: 100%;
+    background-size: cover;
+    z-index: -2;
+   
+}
+
+/* Footer */
+#footer{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    margin-top: 2.5px;
+    height: 400px;
+}
+#footerpara{
+    margin-top: 20px;
+    font-size: 1.5rem;
+}
+#footerlogos{
+    display: flex;
+    align-items: center;
+}
+.footerimg{
+    filter: invert(100%);
+    width: 15%;
+    padding: 3px 40px;
+}
+.footerlabel{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px 0px;
+    align-items: center;
+}
+.footerlabel a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+}
+#footer_bottom{
+    display: block;
+    position: relative;
+    top:145px;
+    background-color: rgb(7, 5, 5);
+}
+/* Utility */
+.primary_heading{
+    font-size: 3rem;
+}
+.secondary_heading{
+    font-size: 2.3rem;
+}
+.center{
+    text-align: center;
+}
